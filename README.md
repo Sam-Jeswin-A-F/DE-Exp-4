@@ -5,9 +5,9 @@ To design and verify a 2:1 Multiplexer and a 1:2 Demultiplexer using Verilog HDL
 ## Theory / Synopsis
 A 2:1 Multiplexer (MUX) selects one of two data inputs, A or B, and routes it to a single output Y based on the value of the select line S. A 1:2 Demultiplexer (DEMUX) performs the reverse operation: it routes a single data input D to one of two outputs, Y0 or Y1, based on the select line S.
 Boolean Functions
-### 2:1 Multiplexer:
+#### 2:1 Multiplexer:
 •	Y = S'.A + S.B
-### 1:2 Demultiplexer:
+#### 1:2 Demultiplexer:
 •	Y0 = S'.D
 •	Y1 = S.D
 ## Files to be Created
